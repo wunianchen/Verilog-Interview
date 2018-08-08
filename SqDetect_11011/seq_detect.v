@@ -76,6 +76,7 @@ module seq_detect(
 		else begin
 			state <= next_state;
 		end
+		$display("input:%01b\t\toutput:%01b\t\t", din, z);
 	end
 
 endmodule

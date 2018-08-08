@@ -1,0 +1,83 @@
+$date
+	Thu Aug 09 01:01:26 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module freq_div2_tb $end
+$var wire 1 ! clk_out $end
+$var reg 1 " clk_in $end
+$scope module div2 $end
+$var wire 1 " clk_100 $end
+$var wire 1 ! clk_out $end
+$var reg 1 # clkout $end
+$var reg 4 $ cnt [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+0#
+0"
+0!
+$end
+#5
+b1 $
+1!
+1#
+1"
+#10
+0"
+#15
+b10 $
+1"
+#20
+0"
+#25
+b11 $
+1"
+#30
+0"
+#35
+b100 $
+1"
+#40
+0"
+#45
+b101 $
+0!
+0#
+1"
+#50
+0"
+#55
+b110 $
+1"
+#60
+0"
+#65
+b111 $
+1"
+#70
+0"
+#75
+b0 $
+1"
+#80
+0"
+#85
+b1 $
+1!
+1#
+1"
+#90
+0"
+#95
+b10 $
+1"
+#100
+0"
