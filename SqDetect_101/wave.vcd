@@ -1,0 +1,123 @@
+$date
+	Tue Aug 07 01:28:42 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module seq_detect_tb $end
+$var wire 1 ! z_out $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$var reg 1 $ x_in $end
+$scope module seq_1 $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 $ x_in $end
+$var reg 2 % next_state [1:0] $end
+$var reg 2 & state [1:0] $end
+$var reg 1 ! z_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+bx %
+0$
+1#
+0"
+x!
+$end
+#5
+0!
+b0 %
+b0 &
+1"
+#10
+0"
+0#
+#15
+1"
+#20
+0"
+#25
+1"
+#30
+b1 %
+0"
+1$
+#35
+b1 &
+1"
+#40
+0"
+#45
+1"
+#50
+b10 %
+0"
+0$
+#55
+b0 %
+b10 &
+1"
+#60
+1!
+b1 %
+0"
+1$
+#65
+0!
+b1 &
+1"
+#70
+0"
+#75
+1"
+#80
+b10 %
+0"
+0$
+#85
+b0 %
+b10 &
+1"
+#90
+1!
+b1 %
+0"
+1$
+#95
+0!
+b1 &
+1"
+#100
+b10 %
+0"
+0$
+#105
+b0 %
+b10 &
+1"
+#110
+1!
+b1 %
+0"
+1$
+#115
+0!
+b1 &
+1"
+#120
+b10 %
+0"
+0$
+#125
+b0 %
+b10 &
+1"
+#130
+0"
